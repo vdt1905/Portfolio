@@ -67,6 +67,10 @@ space-portfolio/
   |- public/
   |- .eslintrc.json
   |- .gitignore
+  |- build_final.log
+  |- build_final2.log
+  |- build.log
+  |- build2.log
   |- eslint.config.mjs
   |- netlify.toml
   |- next.config.js
@@ -75,6 +79,7 @@ space-portfolio/
   |- postcss.config.js
   |- tailwind.config.ts
   |- tsconfig.json
+  |- update_constants.js
 ```
 <!--- FOLDER_STRUCTURE_END --->
 
@@ -117,17 +122,22 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Space Portfolio.
 
 <!--- DEPENDENCIES_START --->
+- [@gsap/react](https://www.npmjs.com/package/@gsap/react): ^2.1.2
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.2.0
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^10.7.7
 - [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^9.5.0
+- [@types/animejs](https://www.npmjs.com/package/@types/animejs): ^3.1.13
 - [@types/node](https://www.npmjs.com/package/@types/node): ^25
 - [@types/react](https://www.npmjs.com/package/@types/react): 19.2.14
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.3
+- [animejs](https://www.npmjs.com/package/animejs): ^3.2.2
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.27
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
 - [eslint](https://www.npmjs.com/package/eslint): ^10.0.2
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.1.6
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.35.0
+- [gsap](https://www.npmjs.com/package/gsap): ^3.14.2
+- [lenis](https://www.npmjs.com/package/lenis): ^1.3.18
 - [next](https://www.npmjs.com/package/next): 16.1.6
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [react](https://www.npmjs.com/package/react): 19.2.4
