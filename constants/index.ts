@@ -90,19 +90,19 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/vanshtandel",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://linkedin.com/in/vanshtandel",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    link: "https://x.com/vanshtandel",
   },
 ] as const;
 
@@ -259,25 +259,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "FinAgent",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "An AI-Powered Financial Automation Platform. Built an agentic AI system to automate financial workflows including payments, transfers, and investments. Integrated LLM-driven intent detection and decision orchestration with human-in-the-loop security controls.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://github.com/vanshtandel/finagent",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "InnoMate",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "A Collaborative Hackathon and Project Teaming Platform. Designed a full-stack platform for hackathon team formation based on skills, roles, and project interests. Implemented JWT-based authentication with role-aware workflows and real-time team group chat using WebSockets.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://github.com/vanshtandel/innomate",
   },
   {
-    title: "Space Themed Website",
+    title: "ShushrutAI",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "An AI-Native Dermatology Diagnostic Platform. Built a multi-agent AI pipeline using Gemini 2.0 for skin lesion analysis and automated clinical reporting. Developed a secure practitioner dashboard for patient management and real-time diagnosis previews.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://github.com/vanshtandel/shushrutai",
   },
 ] as const;
 
@@ -286,14 +286,9 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/vanshtandel",
       },
       {
         name: "Discord",
@@ -306,19 +301,14 @@ export const FOOTER_DATA = [
     title: "Social Media",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        name: "Linkedin",
+        icon: RxLinkedinLogo,
+        link: "https://linkedin.com/in/vanshtandel",
       },
       {
         name: "Twitter",
         icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://x.com/vanshtandel",
       },
     ],
   },
@@ -326,19 +316,9 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:tandelvansh0511@gmail.com",
       },
     ],
   },
@@ -360,5 +340,42 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/vanshtandel/space-portfolio",
 };
+
+export const EDUCATION = [
+  {
+    institution: "Nirma University",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    duration: "August 2023 – May 2027",
+    location: "Ahmedabad, Gujarat, India",
+    description: "Expected Graduation: May 2027 | Current CGPA: 8.30",
+  }
+];
+
+export const ACHIEVEMENTS = [
+  {
+    title: "HackNUthon 6.0 Winner (Reve Soils Track)",
+    description: "Led a multidisciplinary team to Third place at Nirma University by building an AI-driven skin disease classification (Mar 2025)",
+  },
+  {
+    title: "IIT Bombay TechFest– Financial Agent Hackathon",
+    description: "Selected among the Top 25 teams nationwide for developing an agentic AI-based financial automation platform (Dec 2025)",
+  },
+  {
+    title: "Smart India Hackathon (SIH)",
+    description: "Cleared internal selection rounds twice (2024, 2025) for problem statements in AI and applied systems",
+  },
+  {
+    title: "Team Leadership",
+    description: "Served as team lead across multiple national-level hackathons, driving system design, task execution, and final presentations",
+  }
+];
+
+export const CERTIFICATIONS = [
+  "Certified in full-stack web dev by Dr. Angela Yu on Udemy.",
+  "Currently pursuing Krish Naik's course on Deep Learning and NLP on Udemy.",
+  "Certified in The Python Bootcamp by Dr. Angela Yu on Udemy.",
+  "AWS Certified Cloud Practitioner (In Progress)",
+  "Certified in Cybersecurity and Ethical Hacking from Rinex Org. in association with Skill India.",
+];

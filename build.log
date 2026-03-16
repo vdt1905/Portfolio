@@ -1,0 +1,136 @@
+
+> space-portfolio@1.0.1 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 6 errors:
+./components/main/achievements.tsx:5:1
+Export default doesn't exist in target module
+[0m [90m 3 |[39m [36mimport[39m { [33mACHIEVEMENTS[39m } [36mfrom[39m [32m"@/constants"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { useEffect[33m,[39m useRef } [36mfrom[39m [32m"react"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m anime [36mfrom[39m [32m"animejs"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m [36mimport[39m { useInView } [36mfrom[39m [32m"react-intersection-observer"[39m[33m;[39m
+ [90m 7 |[39m [36mimport[39m { [33mTrophyIcon[39m[33m,[39m [33mStarIcon[39m[33m,[39m [33mRocketLaunchIcon[39m } [36mfrom[39m [32m"@heroicons/react/24/outline"[39m[33m;[39m
+ [90m 8 |[39m[0m
+
+The export default was not found in module [project]/node_modules/animejs/dist/modules/index.js [app-client] (ecmascript).
+Did you mean to import degToRad?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/main/achievements.tsx
+    ./app/page.tsx
+
+
+./components/main/achievements.tsx:5:1
+Export default doesn't exist in target module
+[0m [90m 3 |[39m [36mimport[39m { [33mACHIEVEMENTS[39m } [36mfrom[39m [32m"@/constants"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { useEffect[33m,[39m useRef } [36mfrom[39m [32m"react"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m anime [36mfrom[39m [32m"animejs"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m [36mimport[39m { useInView } [36mfrom[39m [32m"react-intersection-observer"[39m[33m;[39m
+ [90m 7 |[39m [36mimport[39m { [33mTrophyIcon[39m[33m,[39m [33mStarIcon[39m[33m,[39m [33mRocketLaunchIcon[39m } [36mfrom[39m [32m"@heroicons/react/24/outline"[39m[33m;[39m
+ [90m 8 |[39m[0m
+
+The export default was not found in module [project]/node_modules/animejs/dist/modules/index.js [app-ssr] (ecmascript).
+Did you mean to import degToRad?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/main/achievements.tsx
+    ./app/page.tsx
+
+
+./components/main/certifications.tsx:5:1
+Export default doesn't exist in target module
+[0m [90m 3 |[39m [36mimport[39m { [33mCERTIFICATIONS[39m } [36mfrom[39m [32m"@/constants"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { useEffect[33m,[39m useRef } [36mfrom[39m [32m"react"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m anime [36mfrom[39m [32m"animejs"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m [36mimport[39m { useInView } [36mfrom[39m [32m"react-intersection-observer"[39m[33m;[39m
+ [90m 7 |[39m [36mimport[39m { [33mCheckBadgeIcon[39m[33m,[39m [33mSparklesIcon[39m } [36mfrom[39m [32m"@heroicons/react/24/outline"[39m[33m;[39m
+ [90m 8 |[39m[0m
+
+The export default was not found in module [project]/node_modules/animejs/dist/modules/index.js [app-client] (ecmascript).
+Did you mean to import degToRad?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/main/certifications.tsx
+    ./app/page.tsx
+
+
+./components/main/certifications.tsx:5:1
+Export default doesn't exist in target module
+[0m [90m 3 |[39m [36mimport[39m { [33mCERTIFICATIONS[39m } [36mfrom[39m [32m"@/constants"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { useEffect[33m,[39m useRef } [36mfrom[39m [32m"react"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m anime [36mfrom[39m [32m"animejs"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m [36mimport[39m { useInView } [36mfrom[39m [32m"react-intersection-observer"[39m[33m;[39m
+ [90m 7 |[39m [36mimport[39m { [33mCheckBadgeIcon[39m[33m,[39m [33mSparklesIcon[39m } [36mfrom[39m [32m"@heroicons/react/24/outline"[39m[33m;[39m
+ [90m 8 |[39m[0m
+
+The export default was not found in module [project]/node_modules/animejs/dist/modules/index.js [app-ssr] (ecmascript).
+Did you mean to import degToRad?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/main/certifications.tsx
+    ./app/page.tsx
+
+
+./components/main/education.tsx:5:1
+Export default doesn't exist in target module
+[0m [90m 3 |[39m [36mimport[39m { [33mEDUCATION[39m } [36mfrom[39m [32m"@/constants"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { useEffect[33m,[39m useRef } [36mfrom[39m [32m"react"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m anime [36mfrom[39m [32m"animejs"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m [36mimport[39m { useInView } [36mfrom[39m [32m"react-intersection-observer"[39m[33m;[39m
+ [90m 7 |[39m [36mimport[39m { [33mAcademicCapIcon[39m[33m,[39m [33mGlobeAltIcon[39m } [36mfrom[39m [32m"@heroicons/react/24/outline"[39m[33m;[39m
+ [90m 8 |[39m[0m
+
+The export default was not found in module [project]/node_modules/animejs/dist/modules/index.js [app-client] (ecmascript).
+Did you mean to import degToRad?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/main/education.tsx
+    ./app/page.tsx
+
+
+./components/main/education.tsx:5:1
+Export default doesn't exist in target module
+[0m [90m 3 |[39m [36mimport[39m { [33mEDUCATION[39m } [36mfrom[39m [32m"@/constants"[39m[33m;[39m
+ [90m 4 |[39m [36mimport[39m { useEffect[33m,[39m useRef } [36mfrom[39m [32m"react"[39m[33m;[39m
+[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m anime [36mfrom[39m [32m"animejs"[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 6 |[39m [36mimport[39m { useInView } [36mfrom[39m [32m"react-intersection-observer"[39m[33m;[39m
+ [90m 7 |[39m [36mimport[39m { [33mAcademicCapIcon[39m[33m,[39m [33mGlobeAltIcon[39m } [36mfrom[39m [32m"@heroicons/react/24/outline"[39m[33m;[39m
+ [90m 8 |[39m[0m
+
+The export default was not found in module [project]/node_modules/animejs/dist/modules/index.js [app-ssr] (ecmascript).
+Did you mean to import degToRad?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/main/education.tsx
+    ./app/page.tsx
+
+
+    at <unknown> (./components/main/achievements.tsx:5:1)
+    at <unknown> (./components/main/achievements.tsx:5:1)
+    at <unknown> (./components/main/certifications.tsx:5:1)
+    at <unknown> (./components/main/certifications.tsx:5:1)
+    at <unknown> (./components/main/education.tsx:5:1)
+    at <unknown> (./components/main/education.tsx:5:1)
